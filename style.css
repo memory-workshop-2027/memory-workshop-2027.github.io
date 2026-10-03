@@ -38,3 +38,34 @@ footer{background:#061f40;color:#cdd9e8;padding:26px 0;font-size:13px}.footer-wr
 .travel-card h3 { margin-top: 0; }
 .travel-card a { color: #a6401d; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 @media (max-width: 820px) { .travel-grid { grid-template-columns: 1fr; } }
+
+/* Confirmed speakers */
+.speaker-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.speaker-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 1rem;
+  row-gap: 0.15rem;
+  font-size: 18px;
+}
+.speaker-name {
+  font-weight: 700;
+  color: var(--navy);
+}
+.speaker-affiliation {
+  color: var(--ink);
+}
+.speaker-role-inline {
+  color: var(--muted);
+  font-size: 0.9em;
+  font-style: italic;
+}
+.speaker-note {
+  margin-top: 1.75rem;
+  color: var(--muted);
+}
